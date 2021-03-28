@@ -1,4 +1,4 @@
-19105175103359244
+19106792062377639
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6229,6 +6229,13 @@ TO-220-3 Vertical RM 2.54mm
 0
 3
 3
+CmpRelai
+Relai
+
+
+0
+0
+0
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
