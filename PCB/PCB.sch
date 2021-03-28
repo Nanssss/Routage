@@ -487,17 +487,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8600 
 	0    1    1    0   
 $EndComp
 $Comp
-L Relay:ADW11 K1
-U 1 1 605C0AEB
-P 9600 3250
-F 0 "K1" V 9033 3250 50  0000 C CNN
-F 1 "ADW11" V 9124 3250 50  0000 C CNN
-F 2 "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT" H 10925 3200 50  0001 C CNN
-F 3 "https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf" H 9600 3250 50  0001 C CNN
-	1    9600 3250
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 605C3065
 P 10600 3050
@@ -1014,10 +1003,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 3150 10400 3150
 Wire Wire Line
-	9900 3550 10000 3550
-Wire Wire Line
-	10000 3550 10000 4250
-Wire Wire Line
 	9850 4850 10000 4850
 Wire Wire Line
 	10000 4850 10000 4550
@@ -1055,9 +1040,6 @@ F 3 "" H 10000 3350 50  0001 C CNN
 	1    10000 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10000 3550 10000 3350
-Connection ~ 10000 3550
 Wire Wire Line
 	8950 5050 8950 5800
 Wire Wire Line
@@ -1156,4 +1138,33 @@ Wire Wire Line
 	2350 6600 2850 6600
 Wire Wire Line
 	2350 6600 2350 6700
+$Comp
+L CMP_Relai:Relai U11
+U 1 1 6061B877
+P 9650 3150
+F 0 "U11" H 9600 3517 50  0000 C CNN
+F 1 "Relai" H 9600 3426 50  0000 C CNN
+F 2 "" V 9250 3000 50  0001 C CNN
+F 3 "" V 9250 3000 50  0001 C CNN
+	1    9650 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3450 10000 3450
+Wire Wire Line
+	10000 3350 10000 3450
+Connection ~ 10000 3450
+Wire Wire Line
+	10000 3450 10000 4250
+$Comp
+L power:GND #PWR0101
+U 1 1 6061B973
+P 2000 3900
+F 0 "#PWR0101" H 2000 3650 50  0001 C CNN
+F 1 "GND" H 2005 3727 50  0000 C CNN
+F 2 "" H 2000 3900 50  0001 C CNN
+F 3 "" H 2000 3900 50  0001 C CNN
+	1    2000 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
