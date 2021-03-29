@@ -4,4 +4,9 @@ Rey Nans
 Raucroy Audrey
 Behro Christine
 
-Le placement sur le schéma est quasi terminé, reste à tout relier.
+L'empreinte du relai est terminée.
+
+Questions :
+
+Quelle empreinte pour les potentiomètres ? Pour le Condo de 10 micros ?
+Vérifier ERC, empreinte Relai.
