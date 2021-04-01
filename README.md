@@ -4,9 +4,6 @@ Rey Nans
 Raucroy Audrey
 Behro Christine
 
-L'empreinte du relai est terminée.
+Le schema, l'empreinte du relai (à vérifier) et l'association d'empreintes sont terminés.
 
-Questions :
-
-Quelle empreinte pour les potentiomètres ? Pour le Condo de 10 micros ?
-Vérifier ERC, empreinte Relai.
+On passe au routage.
