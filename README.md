@@ -4,6 +4,5 @@ Rey Nans
 Raucroy Audrey
 Behro Christine
 
-Le schema, l'empreinte du relai (à vérifier) et l'association d'empreintes sont terminés.
-
-On passe au routage.
+ROUTAGE :
+Tout a été placé mais il faut réorganiser pour minimiser les croisements du chevelu.
