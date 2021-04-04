@@ -36,17 +36,6 @@ F 3 "~" H 2400 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PNP_EBC Q1
-U 1 1 605ADF75
-P 2600 3400
-F 0 "Q1" H 2790 3354 50  0000 L CNN
-F 1 "2N2907" H 2790 3445 50  0000 L CNN
-F 2 "CmpAmpliAudio:TO-18-3" H 2800 3500 50  0001 C CNN
-F 3 "~" H 2600 3400 50  0001 C CNN
-	1    2600 3400
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:Q_PNP_EBC Q3
 U 1 1 605B069B
 P 2950 2150
@@ -56,28 +45,6 @@ F 2 "CmpAmpliAudio:TO-18-3" H 3150 2250 50  0001 C CNN
 F 3 "~" H 2950 2150 50  0001 C CNN
 	1    2950 2150
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 605B3DE4
-P 2000 3750
-F 0 "R1" H 2070 3796 50  0000 L CNN
-F 1 "R" H 2070 3705 50  0000 L CNN
-F 2 "CmpAmpliAudio:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 3750 50  0001 C CNN
-F 3 "~" H 2000 3750 50  0001 C CNN
-	1    2000 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C1
-U 1 1 605B3EE3
-P 1650 3400
-F 0 "C1" V 1395 3400 50  0000 C CNN
-F 1 "47u" V 1486 3400 50  0000 C CNN
-F 2 "CmpAmpliAudio:CP_Radial_D8.0mm_P5.00mm" H 1688 3250 50  0001 C CNN
-F 3 "~" H 1650 3400 50  0001 C CNN
-	1    1650 3400
-	0    1    1    0   
 $EndComp
 $Comp
 L CmpAmpliAudio:Jack_Mono U2
@@ -575,17 +542,6 @@ F 3 "" H 10000 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP C10
-U 1 1 605E807A
-P 8050 4400
-F 0 "C10" H 8200 4500 50  0000 C CNN
-F 1 "47u" H 8250 4400 50  0000 C CNN
-F 2 "CmpAmpliAudio:CP_Radial_D8.0mm_P5.00mm" H 8088 4250 50  0001 C CNN
-F 3 "~" H 8050 4400 50  0001 C CNN
-	1    8050 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C3
 U 1 1 605C925B
 P 10000 5300
@@ -804,21 +760,11 @@ Wire Wire Line
 Connection ~ 3050 3050
 Wire Wire Line
 	4050 4000 2700 4000
-Wire Wire Line
-	2700 3600 2700 4000
 Connection ~ 4050 4000
-Connection ~ 2700 4000
 Wire Wire Line
 	2700 4000 2700 4350
 Wire Wire Line
 	1250 3400 1500 3400
-Wire Wire Line
-	1800 3400 2000 3400
-Wire Wire Line
-	2000 3600 2000 3400
-Connection ~ 2000 3400
-Wire Wire Line
-	2000 3400 2400 3400
 Wire Wire Line
 	950  3550 950  3700
 Wire Wire Line
@@ -1165,6 +1111,60 @@ F 1 "470u" H 8200 1550 50  0000 C CNN
 F 2 "CmpAmpliAudio:CP_Radial_D12.5mm_P5.00mm" H 8038 1400 50  0001 C CNN
 F 3 "~" H 8000 1550 50  0001 C CNN
 	1    8000 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 4000
+Wire Wire Line
+	2000 3400 2400 3400
+Connection ~ 2000 3400
+Wire Wire Line
+	2000 3600 2000 3400
+Wire Wire Line
+	1800 3400 2000 3400
+Wire Wire Line
+	2700 3600 2700 4000
+$Comp
+L Device:CP C1
+U 1 1 605B3EE3
+P 1650 3400
+F 0 "C1" V 1395 3400 50  0000 C CNN
+F 1 "47u" V 1486 3400 50  0000 C CNN
+F 2 "CmpAmpliAudio:CP_Radial_D8.0mm_P5.00mm" H 1688 3250 50  0001 C CNN
+F 3 "~" H 1650 3400 50  0001 C CNN
+	1    1650 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 605B3DE4
+P 2000 3750
+F 0 "R1" H 2070 3796 50  0000 L CNN
+F 1 "R" H 2070 3705 50  0000 L CNN
+F 2 "CmpAmpliAudio:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 3750 50  0001 C CNN
+F 3 "~" H 2000 3750 50  0001 C CNN
+	1    2000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_EBC Q1
+U 1 1 605ADF75
+P 2600 3400
+F 0 "Q1" H 2790 3354 50  0000 L CNN
+F 1 "2N2907" H 2790 3445 50  0000 L CNN
+F 2 "CmpAmpliAudio:TO-18-3" H 2800 3500 50  0001 C CNN
+F 3 "~" H 2600 3400 50  0001 C CNN
+	1    2600 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP C10
+U 1 1 605E807A
+P 8050 4400
+F 0 "C10" H 8200 4500 50  0000 C CNN
+F 1 "470u" H 8250 4400 50  0000 C CNN
+F 2 "CmpAmpliAudio:CP_Radial_D12.5mm_P5.00mm" H 8088 4250 50  0001 C CNN
+F 3 "~" H 8050 4400 50  0001 C CNN
+	1    8050 4400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
