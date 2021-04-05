@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name CmpAmpliAudio)(type Legacy)(uri "C:/Users/nans2/OneDrive/Documents/INSA/BE Elec/Routage/LibAmpli_3imacs/CmpAmpliAudio.lib")(options "")(descr ""))
-  (lib (name Relai)(type Legacy)(uri "C:/Users/nans2/OneDrive/Documents/INSA/BE Elec/Routage/LibAmpli_3imacs/Relai.lib")(options "")(descr ""))
-  (lib (name CMP_Relai)(type Legacy)(uri "C:/Users/nans2/OneDrive/Documents/INSA/BE Elec/Routage/LibAmpli_3imacs/CMP_Relai.lib")(options "")(descr ""))
+  (lib (name CmpAmpliAudio)(type Legacy)(uri "C:/Users/nans2/OneDrive/Documents/INSA/BE Elec/Routage/Rey Raucroy Routage/TR_LibAmpli_3imacs_2021/CmpAmpliAudio.lib")(options "")(descr ""))
+  (lib (name CMP_Relai)(type Legacy)(uri "C:/Users/nans2/OneDrive/Documents/INSA/BE Elec/Routage/Rey Raucroy Routage/TR_LibAmpli_3imacs_2021/CMP_Relai.lib")(options "")(descr ""))
 )
